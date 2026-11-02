@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Present Perfect – Sổ tay ngữ pháp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="Trang chủ">
+        <span class="brand-mark">P</span>
+        <span><b>Grammar Garden</b><small>ENGLISH NOTEBOOK</small></span>
+      </a>
+      <div class="side-label">KHÔNG GIAN HỌC TẬP</div>
+      <nav class="main-nav">
+        <button class="nav-link active" data-view="overview"><span>✿</span> Tổng quan</button>
+        <button class="nav-link" data-view="mindmap"><span>⌘</span> Sơ đồ mindmap</button>
+        <button class="nav-link" data-view="library"><span>▤</span> Kho kiến thức</button>
+        <button class="nav-link" data-view="practice"><span>✎</span> Luyện tập</button>
+        <button class="nav-link" data-view="manage"><span>⚙</span> Quản lí dữ liệu</button>
+      </nav>
+      <div class="sidebar-tip">
+        <span class="tip-icon">🌱</span>
+        <b>Học một chút mỗi ngày</b>
+        <p>Hiểu dấu hiệu, đọc ví dụ và luyện tập để ghi nhớ lâu hơn.</p>
+      </div>
+      <div class="sidebar-foot">PRESENT PERFECT · 2026</div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div><span class="eyebrow">YOUR ENGLISH LEARNING SPACE</span><h1 id="pageTitle">Present Perfect</h1></div>
+        <div class="top-actions"><span class="status-pill"><i></i> Study mode</span><button class="mobile-menu" id="mobileMenu">☰</button></div>
+      </header>
+
+      <section class="view active" id="view-overview">
+        <div class="hero">
+          <div class="hero-copy">
+            <span class="hero-kicker">GRAMMAR GUIDE · 01</span>
+            <h2>Present Perfect<br><em>Made Simple.</em></h2>
+            <p>Khám phá các dấu hiệu nhận biết thì hiện tại hoàn thành qua sơ đồ cây, ví dụ trực quan và bài tập tương tác.</p>
+            <button class="primary-btn" data-goto="mindmap">Khám phá mindmap <span>↗</span></button>
+          </div>
+          <div class="hero-art" aria-hidden="true"><div class="sun"></div><div class="leaf leaf-one"></div><div class="leaf leaf-two"></div><div class="book">P<br><small>PERFECT</small></div><span class="spark s1">✦</span><span class="spark s2">✧</span></div>
+        </div>
+        <div class="section-heading"><div><span class="eyebrow">START HERE</span><h2>Hành trình học tập</h2></div><span class="muted">Chọn một khu vực để bắt đầu</span></div>
+        <div class="quick-grid">
+          <button class="quick-card sage-card" data-goto="mindmap"><span class="quick-icon">⌘</span><b>Sơ đồ mindmap</b><small>Xem các nhóm dấu hiệu theo nhánh</small><span class="card-arrow">↗</span></button>
+          <button class="quick-card lilac-card" data-goto="library"><span class="quick-icon">▤</span><b>Kho kiến thức</b><small>Giải thích và ví dụ từng dấu hiệu</small><span class="card-arrow">↗</span></button>
+          <button class="quick-card pink-card" data-goto="practice"><span class="quick-icon">✎</span><b>Luyện tập</b><small>Thử sức với các dạng bài tập</small><span class="card-arrow">↗</span></button>
+        </div>
+        <div class="section-heading"><div><span class="eyebrow">QUICK REMINDER</span><h2>Công thức cần nhớ</h2></div></div>
+        <div class="formula-card"><span class="formula-label">PRESENT PERFECT</span><div class="formula">S + <strong>have / has</strong> + <strong>V3 / V-ed</strong></div><p>Have dùng với I / You / We / They; Has dùng với He / She / It.</p></div>
+        <div class="section-heading"><div><span class="eyebrow">LEARNING MAP</span><h2>Các nhóm dấu hiệu</h2></div><button class="text-btn" data-goto="mindmap">Xem sơ đồ đầy đủ →</button></div>
+        <div class="group-preview" id="overviewGroups"></div>
+      </section>
+
+      <section class="view" id="view-mindmap">
+        <div class="intro-row"><div><span class="eyebrow">VISUAL LEARNING</span><h2>Sơ đồ cây dấu hiệu nhận biết</h2><p>Chọn một nhánh để mở rộng. Chọn từng dấu hiệu để xem giải thích và ví dụ.</p></div><span class="count-chip" id="groupCount"></span></div>
+        <div class="mindmap-layout">
+          <div class="tree-panel"><div class="tree-root">PRESENT PERFECT<span>Dấu hiệu nhận biết</span></div><div class="tree-branches" id="treeBranches"></div></div>
+          <aside class="detail-panel" id="mindDetail"><div class="empty-state"><span>🌿</span><h3>Chọn một nhánh nhé!</h3><p>Thông tin chi tiết sẽ xuất hiện ở đây.</p></div></aside>
+        </div>
+      </section>
+
+      <section class="view" id="view-library">
+        <div class="intro-row"><div><span class="eyebrow">KNOWLEDGE LIBRARY</span><h2>Kho kiến thức</h2><p>Tìm kiếm dấu hiệu, xem cách dùng và ví dụ Anh – Việt.</p></div></div>
+        <div class="search-row"><input id="searchInput" type="search" placeholder="Tìm since, for, ever, recently..."><select id="groupFilter"><option value="all">Tất cả nhóm</option></select></div>
+        <div class="library-layout"><div class="term-list" id="termList"></div><article class="term-detail" id="termDetail"><div class="empty-state"><span>📖</span><h3>Chọn một dấu hiệu</h3><p>Kiến thức chi tiết sẽ hiển thị tại đây.</p></div></article></div>
+      </section>
+
+      <section class="view" id="view-practice">
+        <div class="intro-row"><div><span class="eyebrow">PRACTICE MAKES PROGRESS</span><h2>Góc luyện tập</h2><p>Làm từng câu, kiểm tra đáp án và đọc giải thích để hiểu bản chất.</p></div><span class="count-chip" id="practiceCount"></span></div>
+        <div class="practice-toolbar"><div class="mode-tabs"><button class="mode-tab active" data-mode="all">Tất cả</button><button class="mode-tab" data-mode="find">Tìm dấu hiệu</button><button class="mode-tab" data-mode="fill">Điền từ</button><button class="mode-tab" data-mode="classify">Phân loại</button></div><button class="soft-btn" id="shuffleBtn">↻ Trộn câu</button></div>
+        <div class="quiz-card" id="quizCard"></div>
+      </section>
+
+      <section class="view" id="view-manage">
+        <div class="intro-row"><div><span class="eyebrow">CUSTOMIZE YOUR NOTEBOOK</span><h2>Quản lí dữ liệu</h2><p>Chỉnh sửa nội dung bằng JSON, sau đó nhập lại để cập nhật toàn bộ trang web.</p></div></div>
+        <div class="manage-grid">
+          <div class="manage-card"><span class="manage-icon">↓</span><h3>Xuất dữ liệu JSON</h3><p>Tải xuống bản dữ liệu hiện tại để lưu trữ hoặc chỉnh sửa bằng VS Code.</p><button class="primary-btn" id="exportBtn">Tải file JSON</button></div>
+          <div class="manage-card"><span class="manage-icon">↑</span><h3>Nhập dữ liệu JSON</h3><p>Chọn file JSON đã chỉnh sửa. Trang web sẽ kiểm tra cấu trúc trước khi cập nhật.</p><label class="upload-btn" for="importFile">Chọn file JSON</label><input type="file" id="importFile" accept=".json,application/json" hidden></div>
+        </div>
+        <div class="manage-card editor-card"><div class="editor-head"><div><h3>Chỉnh sửa nhanh JSON</h3><p>Bạn cũng có thể sửa trực tiếp nội dung ở khung bên dưới.</p></div><button class="soft-btn" id="reloadJson">↻ Nạp dữ liệu hiện tại</button></div><textarea id="jsonEditor" spellcheck="false"></textarea><div class="editor-actions"><span id="jsonStatus" class="muted">Dữ liệu được lưu trong trình duyệt sau khi áp dụng.</span><button class="primary-btn" id="applyJson">Kiểm tra & áp dụng</button></div></div>
+        <div class="notice"><b>💡 Lưu ý:</b> Hãy giữ nguyên các trường <code>id</code>, <code>items</code>, <code>examples</code> và <code>exercises</code> khi chỉnh sửa cấu trúc. Bạn nên tải file JSON gốc để có bản dự phòng.</div>
+      </section>
+
+      <footer><span>Made for curious learners</span><span>Grammar Garden <b>✿</b></span></footer>
+    </main>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,527 @@
+{
+  "title": "Present Perfect – Dấu hiệu nhận biết",
+  "subtitle": "Sổ tay ngữ pháp tương tác",
+  "groups": [
+    {
+      "id": "since-for",
+      "title": "SINCE – FOR",
+      "subtitle": "Mốc thời gian & khoảng thời gian",
+      "color": "sage",
+      "description": "Dùng để nói một hành động hoặc trạng thái bắt đầu trong quá khứ và còn liên quan đến hiện tại.",
+      "items": [
+        {
+          "id": "since",
+          "word": "SINCE",
+          "meaning": "Kể từ (một mốc thời gian)",
+          "use": "Đứng trước một mốc thời gian cụ thể: năm, ngày, thời điểm hoặc mệnh đề quá khứ đơn.",
+          "position": "Thường đứng trước mốc thời gian; thường ở cuối câu hoặc sau động từ chính tùy cấu trúc.",
+          "examples": [
+            {
+              "en": "I have lived here since 2020.",
+              "vi": "Tôi đã sống ở đây từ năm 2020.",
+              "note": "since + năm 2020 (mốc bắt đầu)"
+            },
+            {
+              "en": "She has known him since they were children.",
+              "vi": "Cô ấy đã biết anh ấy từ khi họ còn nhỏ.",
+              "note": "since + mệnh đề quá khứ đơn"
+            },
+            {
+              "en": "We haven't met since Monday.",
+              "vi": "Chúng tôi chưa gặp nhau kể từ thứ Hai.",
+              "note": "since + thứ/ngày cụ thể"
+            }
+          ],
+          "exerciseClue": "I have studied English since 2022.",
+          "answer": "since"
+        },
+        {
+          "id": "for",
+          "word": "FOR",
+          "meaning": "Trong (một khoảng thời gian)",
+          "use": "Đứng trước khoảng thời gian: two hours, three days, a long time, five years...",
+          "position": "Thường đứng trước cụm chỉ khoảng thời gian.",
+          "examples": [
+            {
+              "en": "They have waited for two hours.",
+              "vi": "Họ đã đợi được hai tiếng.",
+              "note": "for + khoảng thời gian"
+            },
+            {
+              "en": "I have had this bag for three years.",
+              "vi": "Tôi đã có chiếc túi này được ba năm.",
+              "note": "for + three years"
+            },
+            {
+              "en": "He hasn't played football for a month.",
+              "vi": "Cậu ấy đã không chơi bóng đá suốt một tháng.",
+              "note": "for + a month"
+            }
+          ],
+          "exerciseClue": "She has worked here for six months.",
+          "answer": "for"
+        }
+      ]
+    },
+    {
+      "id": "just-already-yet",
+      "title": "JUST – ALREADY – YET",
+      "subtitle": "Vừa mới / đã / chưa",
+      "color": "cream",
+      "description": "Nhóm từ thường diễn tả thời điểm hoặc tình trạng hoàn thành của hành động.",
+      "items": [
+        {
+          "id": "just",
+          "word": "JUST",
+          "meaning": "Vừa mới",
+          "use": "Diễn tả hành động xảy ra cách thời điểm nói không lâu.",
+          "position": "Thường đứng giữa have/has và quá khứ phân từ (V3/ed).",
+          "examples": [
+            {
+              "en": "I have just finished my homework.",
+              "vi": "Tôi vừa mới làm xong bài tập.",
+              "note": "have + just + V3"
+            },
+            {
+              "en": "The train has just arrived.",
+              "vi": "Tàu vừa mới đến.",
+              "note": "has + just + V3"
+            },
+            {
+              "en": "She has just called me.",
+              "vi": "Cô ấy vừa mới gọi cho tôi.",
+              "note": "has + just + V3"
+            }
+          ],
+          "exerciseClue": "The baby has just fallen asleep.",
+          "answer": "just"
+        },
+        {
+          "id": "already",
+          "word": "ALREADY",
+          "meaning": "Đã… rồi",
+          "use": "Nhấn mạnh hành động đã hoàn thành, thường sớm hơn dự kiến.",
+          "position": "Thường đứng giữa have/has và V3; cũng có thể đứng cuối câu để nhấn mạnh.",
+          "examples": [
+            {
+              "en": "I have already eaten breakfast.",
+              "vi": "Tôi đã ăn sáng rồi.",
+              "note": "have + already + V3"
+            },
+            {
+              "en": "She has already seen this film.",
+              "vi": "Cô ấy đã xem bộ phim này rồi.",
+              "note": "has + already + V3"
+            },
+            {
+              "en": "We have booked the tickets already.",
+              "vi": "Chúng tôi đã đặt vé rồi.",
+              "note": "already ở cuối câu"
+            }
+          ],
+          "exerciseClue": "They have already completed the project.",
+          "answer": "already"
+        },
+        {
+          "id": "yet",
+          "word": "YET",
+          "meaning": "Chưa / chưa… à?",
+          "use": "Thường dùng trong câu phủ định và câu hỏi, nói về việc chưa xảy ra hoặc đang chờ xảy ra.",
+          "position": "Thường đứng cuối câu.",
+          "examples": [
+            {
+              "en": "I haven't finished my homework yet.",
+              "vi": "Tôi vẫn chưa làm xong bài tập.",
+              "note": "Câu phủ định – yet cuối câu"
+            },
+            {
+              "en": "Have you eaten lunch yet?",
+              "vi": "Bạn ăn trưa chưa?",
+              "note": "Câu hỏi – yet cuối câu"
+            },
+            {
+              "en": "The bus hasn't arrived yet.",
+              "vi": "Xe buýt vẫn chưa đến.",
+              "note": "Câu phủ định – yet cuối câu"
+            }
+          ],
+          "exerciseClue": "Have you finished your work yet?",
+          "answer": "yet"
+        }
+      ]
+    },
+    {
+      "id": "ever-never",
+      "title": "EVER – NEVER",
+      "subtitle": "Trải nghiệm",
+      "color": "lavender",
+      "description": "Thường xuất hiện khi nói về trải nghiệm trong cuộc đời tính đến thời điểm hiện tại.",
+      "items": [
+        {
+          "id": "ever",
+          "word": "EVER",
+          "meaning": "Đã từng (bao giờ)",
+          "use": "Thường dùng trong câu hỏi về trải nghiệm; cũng có thể xuất hiện sau so sánh nhất hoặc trong một số cấu trúc khác.",
+          "position": "Thường đứng giữa chủ ngữ và V3, sau have/has.",
+          "examples": [
+            {
+              "en": "Have you ever visited Da Lat?",
+              "vi": "Bạn đã từng đến Đà Lạt chưa?",
+              "note": "Have + subject + ever + V3?"
+            },
+            {
+              "en": "Has she ever tried sushi?",
+              "vi": "Cô ấy đã từng thử sushi chưa?",
+              "note": "Has + subject + ever + V3?"
+            },
+            {
+              "en": "This is the best book I have ever read.",
+              "vi": "Đây là cuốn sách hay nhất mà tôi từng đọc.",
+              "note": "ever trong mệnh đề sau so sánh nhất"
+            }
+          ],
+          "exerciseClue": "Have they ever travelled abroad?",
+          "answer": "ever"
+        },
+        {
+          "id": "never",
+          "word": "NEVER",
+          "meaning": "Chưa bao giờ / không bao giờ",
+          "use": "Diễn tả một việc chưa từng xảy ra trong trải nghiệm đến hiện tại.",
+          "position": "Thường đứng giữa have/has và V3. Never đã mang nghĩa phủ định nên không dùng thêm not.",
+          "examples": [
+            {
+              "en": "I have never eaten octopus.",
+              "vi": "Tôi chưa bao giờ ăn bạch tuộc.",
+              "note": "have + never + V3"
+            },
+            {
+              "en": "He has never been to Japan.",
+              "vi": "Anh ấy chưa từng đến Nhật Bản.",
+              "note": "has + never + V3"
+            },
+            {
+              "en": "We have never seen snow.",
+              "vi": "Chúng tôi chưa bao giờ nhìn thấy tuyết.",
+              "note": "have + never + V3"
+            }
+          ],
+          "exerciseClue": "My sister has never ridden a horse.",
+          "answer": "never"
+        }
+      ]
+    },
+    {
+      "id": "recently-lately",
+      "title": "RECENTLY – LATELY",
+      "subtitle": "Gần đây",
+      "color": "pink",
+      "description": "Dùng để nói về sự việc xảy ra trong khoảng thời gian gần đây, có liên hệ với hiện tại.",
+      "items": [
+        {
+          "id": "recently",
+          "word": "RECENTLY",
+          "meaning": "Gần đây",
+          "use": "Có thể dùng trong câu khẳng định, phủ định hoặc câu hỏi tùy ngữ cảnh.",
+          "position": "Có thể đứng cuối câu hoặc trước động từ chính; vị trí phụ thuộc cấu trúc câu.",
+          "examples": [
+            {
+              "en": "I have recently started learning Spanish.",
+              "vi": "Gần đây tôi đã bắt đầu học tiếng Tây Ban Nha.",
+              "note": "recently trước V3"
+            },
+            {
+              "en": "Have you seen Tom recently?",
+              "vi": "Gần đây bạn có gặp Tom không?",
+              "note": "recently ở cuối câu"
+            },
+            {
+              "en": "She hasn't visited us recently.",
+              "vi": "Gần đây cô ấy không đến thăm chúng tôi.",
+              "note": "recently ở cuối câu"
+            }
+          ],
+          "exerciseClue": "We have recently moved to a new house.",
+          "answer": "recently"
+        },
+        {
+          "id": "lately",
+          "word": "LATELY",
+          "meaning": "Dạo gần đây",
+          "use": "Thường nói về tình trạng hoặc hoạt động trong khoảng thời gian gần đây; hay gặp trong câu hỏi và phủ định.",
+          "position": "Thường đứng cuối câu.",
+          "examples": [
+            {
+              "en": "I haven't slept well lately.",
+              "vi": "Dạo gần đây tôi ngủ không ngon.",
+              "note": "lately ở cuối câu"
+            },
+            {
+              "en": "Have you been busy lately?",
+              "vi": "Dạo này bạn có bận không?",
+              "note": "lately ở cuối câu"
+            },
+            {
+              "en": "Things have changed lately.",
+              "vi": "Mọi thứ gần đây đã thay đổi.",
+              "note": "lately ở cuối câu"
+            }
+          ],
+          "exerciseClue": "Have you felt tired lately?",
+          "answer": "lately"
+        }
+      ]
+    },
+    {
+      "id": "so-far",
+      "title": "SO FAR – UP TO NOW – UNTIL NOW",
+      "subtitle": "Cho đến hiện tại",
+      "color": "blue",
+      "description": "Nhấn mạnh kết quả hoặc tình hình tính từ trước đến thời điểm hiện tại.",
+      "items": [
+        {
+          "id": "so-far",
+          "word": "SO FAR",
+          "meaning": "Cho đến nay",
+          "use": "Tổng kết kết quả hoặc tiến độ tính đến hiện tại.",
+          "position": "Thường đứng cuối câu, đôi khi đứng đầu câu.",
+          "examples": [
+            {
+              "en": "I have read three chapters so far.",
+              "vi": "Cho đến nay tôi đã đọc được ba chương.",
+              "note": "so far ở cuối câu"
+            },
+            {
+              "en": "So far, we have received ten answers.",
+              "vi": "Đến thời điểm này, chúng tôi đã nhận được mười câu trả lời.",
+              "note": "so far ở đầu câu"
+            },
+            {
+              "en": "She hasn't made any mistakes so far.",
+              "vi": "Cho đến nay cô ấy chưa mắc lỗi nào.",
+              "note": "so far ở cuối câu"
+            }
+          ],
+          "exerciseClue": "We have learned five units so far.",
+          "answer": "so far"
+        },
+        {
+          "id": "up-to-now",
+          "word": "UP TO NOW",
+          "meaning": "Cho đến bây giờ",
+          "use": "Nói về kết quả hoặc tình hình kéo dài đến hiện tại.",
+          "position": "Thường đứng đầu hoặc cuối câu.",
+          "examples": [
+            {
+              "en": "Up to now, I have completed four tasks.",
+              "vi": "Cho đến bây giờ, tôi đã hoàn thành bốn nhiệm vụ.",
+              "note": "up to now ở đầu câu"
+            },
+            {
+              "en": "We have had no problems up to now.",
+              "vi": "Cho đến nay chúng tôi chưa gặp vấn đề gì.",
+              "note": "up to now ở cuối câu"
+            }
+          ],
+          "exerciseClue": "Up to now, he has written two pages.",
+          "answer": "up to now"
+        },
+        {
+          "id": "until-now",
+          "word": "UNTIL NOW",
+          "meaning": "Cho đến bây giờ",
+          "use": "Có thể nhấn mạnh một tình trạng kéo dài đến hiện tại, thường tạo cảm giác có sự thay đổi ở hiện tại.",
+          "position": "Thường đứng đầu hoặc cuối câu.",
+          "examples": [
+            {
+              "en": "Until now, nobody has answered the question.",
+              "vi": "Cho đến bây giờ vẫn chưa ai trả lời câu hỏi.",
+              "note": "until now ở đầu câu"
+            },
+            {
+              "en": "I have never thought about it until now.",
+              "vi": "Cho đến tận bây giờ tôi chưa từng nghĩ về điều đó.",
+              "note": "until now ở cuối câu"
+            }
+          ],
+          "exerciseClue": "Until now, nobody has found the key.",
+          "answer": "until now"
+        }
+      ]
+    },
+    {
+      "id": "how-long",
+      "title": "HOW LONG",
+      "subtitle": "Hỏi khoảng thời gian",
+      "color": "lavender",
+      "description": "Dùng để hỏi một hành động hoặc trạng thái đã kéo dài bao lâu và thường vẫn còn tiếp diễn.",
+      "items": [
+        {
+          "id": "how-long",
+          "word": "HOW LONG",
+          "meaning": "Bao lâu",
+          "use": "Thường dùng để hỏi khoảng thời gian một hành động hoặc trạng thái đã kéo dài.",
+          "position": "How long + have/has + subject + V3/been...?",
+          "examples": [
+            {
+              "en": "How long have you lived here?",
+              "vi": "Bạn đã sống ở đây bao lâu rồi?",
+              "note": "How long + have + subject + V3"
+            },
+            {
+              "en": "How long has she been a teacher?",
+              "vi": "Cô ấy đã làm giáo viên bao lâu rồi?",
+              "note": "How long + has + subject + been"
+            },
+            {
+              "en": "How long have they known each other?",
+              "vi": "Họ đã quen nhau bao lâu rồi?",
+              "note": "Hỏi thời lượng đến hiện tại"
+            }
+          ],
+          "exerciseClue": "How long have you studied English?",
+          "answer": "how long"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Since + mốc thời gian; for + khoảng thời gian. Đây là cách phân biệt quan trọng nhất của nhóm này.",
+    "Yet thường dùng trong câu hỏi và câu phủ định, thường ở cuối câu.",
+    "Never đã mang nghĩa phủ định, không dùng thêm not trong cùng cấu trúc.",
+    "Dấu hiệu nhận biết chỉ là gợi ý. Cần xét nghĩa và ngữ cảnh để chọn thì chính xác.",
+    "Present Perfect có cấu trúc cơ bản: S + have/has + V3/ed."
+  ],
+  "exercises": [
+    {
+      "type": "find",
+      "question": "I have lived in Hue since 2021.",
+      "prompt": "Từ/cụm từ nào là dấu hiệu nhận biết?",
+      "answer": "since",
+      "options": [
+        "already",
+        "since",
+        "yet",
+        "ever"
+      ],
+      "explanation": "Since đi với mốc thời gian 2021."
+    },
+    {
+      "type": "find",
+      "question": "Have you ever eaten Korean food?",
+      "prompt": "Từ/cụm từ nào là dấu hiệu nhận biết?",
+      "answer": "ever",
+      "options": [
+        "for",
+        "just",
+        "ever",
+        "lately"
+      ],
+      "explanation": "Ever thường xuất hiện trong câu hỏi về trải nghiệm."
+    },
+    {
+      "type": "find",
+      "question": "She has just finished her project.",
+      "prompt": "Từ/cụm từ nào là dấu hiệu nhận biết?",
+      "answer": "just",
+      "options": [
+        "just",
+        "since",
+        "so far",
+        "never"
+      ],
+      "explanation": "Just diễn tả hành động vừa mới xảy ra."
+    },
+    {
+      "type": "fill",
+      "question": "We have known each other ___ ten years.",
+      "prompt": "Điền dấu hiệu thích hợp vào chỗ trống.",
+      "answer": "for",
+      "options": [
+        "since",
+        "for",
+        "yet",
+        "ever"
+      ],
+      "explanation": "Ten years là một khoảng thời gian nên dùng for."
+    },
+    {
+      "type": "fill",
+      "question": "I haven't called my friend ___.",
+      "prompt": "Điền dấu hiệu thích hợp vào chỗ trống.",
+      "answer": "yet",
+      "options": [
+        "already",
+        "yet",
+        "ever",
+        "since"
+      ],
+      "explanation": "Yet thường đứng cuối câu phủ định."
+    },
+    {
+      "type": "fill",
+      "question": "He has ___ visited Singapore. This is his first trip.",
+      "prompt": "Điền dấu hiệu thích hợp vào chỗ trống.",
+      "answer": "never",
+      "options": [
+        "ever",
+        "never",
+        "just",
+        "for"
+      ],
+      "explanation": "Never diễn tả chưa từng; phù hợp với thông tin đây là chuyến đi đầu tiên."
+    },
+    {
+      "type": "classify",
+      "question": "recently",
+      "prompt": "Dấu hiệu này thuộc nhóm nào?",
+      "answer": "recently-lately",
+      "options": [
+        "since-for",
+        "just-already-yet",
+        "ever-never",
+        "recently-lately"
+      ],
+      "explanation": "Recently có nghĩa là gần đây."
+    },
+    {
+      "type": "classify",
+      "question": "so far",
+      "prompt": "Dấu hiệu này thuộc nhóm nào?",
+      "answer": "so-far",
+      "options": [
+        "how-long",
+        "so-far",
+        "ever-never",
+        "since-for"
+      ],
+      "explanation": "So far có nghĩa là cho đến nay."
+    },
+    {
+      "type": "find",
+      "question": "They have already booked the hotel.",
+      "prompt": "Từ/cụm từ nào là dấu hiệu nhận biết?",
+      "answer": "already",
+      "options": [
+        "already",
+        "lately",
+        "for",
+        "ever"
+      ],
+      "explanation": "Already nhấn mạnh việc đã hoàn thành."
+    },
+    {
+      "type": "fill",
+      "question": "How ___ have you been here?",
+      "prompt": "Hoàn thành cụm từ hỏi về khoảng thời gian.",
+      "answer": "long",
+      "options": [
+        "many",
+        "long",
+        "much",
+        "often"
+      ],
+      "explanation": "How long dùng để hỏi một việc đã kéo dài bao lâu."
+    }
+  ]
+}
